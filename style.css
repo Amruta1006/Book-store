@@ -83,6 +83,11 @@ h1 {
     font-size: 18px;
     color: #666;
   }
+
+  .novel{
+    height: 250px;
+    width: 250px;
+  }
 /* Mobile devices */
 @media screen and (max-width: 480px) {
     .navbar {
@@ -107,6 +112,11 @@ h1 {
     .para-1 {
         margin-top: 15px;
     }
+    .novel{
+        height: 100px;
+        width: 100px;
+        margin: auto;
+      }
 }
 
 /* Tablets */
@@ -133,4 +143,8 @@ h1 {
     .para-1 {
         margin-top: 20px;
     }
+    .novel{
+        height: 90px;
+        width: 90px;
+      }
 }
