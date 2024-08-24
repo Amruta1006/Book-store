@@ -66,16 +66,12 @@ h1 {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
   }
   
   .card:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
-  }
-  
-  .card h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
   }
   
   .card p {
@@ -103,8 +99,8 @@ h1 {
         margin-left: 10px;
     }
     .book-store-img {
-        height: 200px;
-        width: 300px;
+        height: 100px;
+        width: 200px;
     }
     .home-page-content {
         margin: 10px;
@@ -114,9 +110,20 @@ h1 {
         margin-top: 15px;
     }
     .novel{
-        height: 100px;
-        width: 100px;
-        margin: auto;
+        height: 70px;
+        width: 70px;
+      }
+      #novel-4{
+        display: none;
+      }
+      .card p {
+        font-size: 15px;
+        color:#fffffe;
+        text-align: center;
+      }
+      .card-container {
+        margin: 20px;
+        padding: 20px;
       }
 }
 
@@ -147,5 +154,10 @@ h1 {
     .novel{
         height: 90px;
         width: 90px;
+      }
+      .card p {
+        font-size: 20px;
+        color:#fffffe;
+        text-align: center;
       }
 }
