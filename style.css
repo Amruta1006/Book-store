@@ -14,13 +14,36 @@
     color: #fff;
     text-decoration: none;
     padding: 30px;
+    font-size: 1.5rem;
 }
 /* Home Page Styles */
-.home {
-    background-color: #fffffe;
-    height: 100vh;
-}
-.home h1 {
-    font-size: 36px;
+h1 {
+    font-size: 40px;
+    color: #094067;
+    text-align: center;
+    margin: 30px;
 }
 
+.home-page{
+    background-color: #fffffe;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 25px;
+    padding: 40px;
+}
+
+.book-store-img{
+    height: 400px;
+    width: 600px;
+}
+
+.home-page-content{
+    margin: 20px;
+    color: #5f6c7b;
+    font-family: cursive;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.para-1{
+    margin-top: 25px;
+}
