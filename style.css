@@ -49,10 +49,53 @@ h1 {
 }
 
 /* Mobile devices */
-@media screen and (max-width:500px){
-
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar a {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+    .home-page {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .book-store-img {
+        height: 200px;
+        width: 300px;
+    }
+    .home-page-content {
+        margin: 10px;
+        font-size: 1rem;
+    }
+    .para-1 {
+        margin-top: 15px;
+    }
 }
-/* Tablets */
-@media screen and (min-width:501px) and (max-width:768){
 
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        padding: 12px;
+    }
+    .navbar a {
+        padding: 20px;
+        font-size: 1.3rem;
+    }
+    .home-page {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .book-store-img {
+        height: 300px;
+        width: 450px;
+    }
+    .home-page-content {
+        margin: 15px;
+        font-size: 1.1rem;
+    }
+    .para-1 {
+        margin-top: 20px;
+    }
 }
