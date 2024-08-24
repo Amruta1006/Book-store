@@ -1,4 +1,17 @@
+/* Global styling */
 *{
     margin: 0px;
     padding: 0px;
+}
+/* Navbar Styles */
+.navbar {
+    background-color:#094067;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
 }
