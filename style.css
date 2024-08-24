@@ -27,9 +27,9 @@ h1 {
 .home-page{
     background-color: #fffffe;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-left: 30px;
-    margin-top: 25px;
-    padding: 40px;
 }
 
 .book-store-img{
@@ -49,5 +49,10 @@ h1 {
 }
 
 /* Mobile devices */
+@media screen and (max-width:500px){
+
+}
 /* Tablets */
-/* Laptops */
+@media screen and (min-width:501px) and (max-width:768){
+
+}
